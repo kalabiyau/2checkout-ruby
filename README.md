@@ -1,4 +1,4 @@
-2Checkout Python Library
+2Checkout Ruby Library
 =====================
 
 This library provides developers with a simple set of bindings to the 2Checkout purchase routine, Instant Notification Service and Back Office API.
@@ -115,7 +115,7 @@ Example INS Usage:
 
 *Example Usage:*
 
-```python
+```ruby
 require "sinatra"
 
 post '/' do
