@@ -71,7 +71,7 @@ end
 
 ```json
 {
-    :status=>{
+    :status => {
         "result"=>"pass",
         "reason"=>"Hash Matched"
     }, 
