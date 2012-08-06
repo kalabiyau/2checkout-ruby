@@ -9,10 +9,10 @@ To use, download or clone the repository.
 git clone https://github.com/craigchristenson/2checkout-ruby.git
 ```
 
-Import in your Gemfile
+Or import into your Gemfile
 
 ```ruby
-gem 'twocheckout', :git => "github.com/craigchristenson/2checkout-ruby.git"
+gem 'twocheckout', :git => "git://github.com/craigchristenson/2checkout-ruby.git"
 ```
 
 Full documentation for each binding will be provided in the [Wiki](https://github.com/craigchristenson/2checkout-ruby/wiki).
