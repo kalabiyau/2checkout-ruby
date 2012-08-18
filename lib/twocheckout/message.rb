@@ -1,5 +1,5 @@
 module Twocheckout
-  class TwocheckoutError < StandardError
+  class TwocheckoutMessage < StandardError
     attr_reader :message
 
     def initialize(message=nil)
