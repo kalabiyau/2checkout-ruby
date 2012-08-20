@@ -2,7 +2,7 @@ module Twocheckout
   class Sale
 
     def self.retrieve(params={})
-      if params.has_key?("sale_id" || "invoice_id")
+      if params.has_key?("sale_id") || params.has_key?("invoice_id")
         Twocheckout.request(:get, 'sales/detail_sale', params)
       else
         Twocheckout.request(:get, 'sales/list_sales', params)
