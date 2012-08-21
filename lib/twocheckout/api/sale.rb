@@ -69,7 +69,7 @@ module Twocheckout
     end
 
     def self.reauth(params={})
-      if params.has_key?("sale_id" || "invoice_id")
+      if params.has_key?("sale_id") || params.has_key?("invoice_id")
         Twocheckout.request(:post, 'sales/reauth', params)
       else
         result = '{"errors":{"code":"INVALID PARAMETER","message:":"You must pass a sale_id or invoice_id."}}'
