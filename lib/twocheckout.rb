@@ -1,5 +1,5 @@
-gem 'rest-client'
 require 'rest_client'
+require 'rubygems'
 require 'cgi'
 require 'json'
 require 'net/http'

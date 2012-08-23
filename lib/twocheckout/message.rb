@@ -7,7 +7,12 @@ module Twocheckout
     end
 
     def retrieve
-      "#{@message}"
+      if @message.is_a?(Hash)
+        @message = JSON.generate(@message)
+        "#{@message}"
+      else
+        "#{@message}"
+      end
     end
   end
 end

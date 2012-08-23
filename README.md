@@ -3,16 +3,16 @@
 
 This library provides developers with a simple set of bindings to the 2Checkout purchase routine, Instant Notification Service and Back Office API.
 
-To use, download or clone the repository.
+To use, install:
 
 ```shell
-git clone https://github.com/craigchristenson/2checkout-ruby.git
+gem install twocheckout
 ```
 
 Or import into your Gemfile
 
 ```ruby
-gem 'twocheckout', :git => "git://github.com/craigchristenson/2checkout-ruby.git"
+gem "twocheckout", "~> 0.0.1"
 ```
 
 Full documentation for each binding will be provided in the [Wiki](https://github.com/craigchristenson/2checkout-ruby/wiki).

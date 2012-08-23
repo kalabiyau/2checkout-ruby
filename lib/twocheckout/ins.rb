@@ -12,17 +12,17 @@ module Twocheckout
       credentials = options[:credentials]
       if params.is_a?(Hash)
         if check(params['sale_id'], credentials['sid'], params['invoice_id'], credentials['secret'], params['md5_hash'])
-          response = '{"code":"PASS","message:":"Hash Matched"}'
-          TwocheckoutMessage.new(response).retrieve
+          message = {:code => "PASS", :message => "Hash Matched"}
+          result = TwocheckoutMessage.new(message).retrieve
         else
-          response = '{"code":"FAIL","message:":"Hash Mismatch"}'
-          TwocheckoutMessage.new(response).retrieve
+          message = {:code => "FAIL", :message => "Hash Mismatch"}
+          result = TwocheckoutMessage.new(message).retrieve
         end
       else
-        response = '{"code":"INVALID PARAMETER","message:":"Hash was not passed"}'
-        TwocheckoutMessage.new(response).retrieve
+          message = {:errors => [{:code => "INVALID PARAMETER", :message => "Hash was not passed"}]}
+          result = TwocheckoutMessage.new(message).retrieve
       end
-      response
+      result
     end
   end
 end
