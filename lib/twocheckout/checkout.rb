@@ -1,5 +1,5 @@
 module Twocheckout
-  class Charge
+  class Checkout
 
     def self.form(params={})
       @form = "<form id=\"2checkout\" action=\"https://www.2checkout.com/checkout/spurchase\" method=\"post\">\n";
