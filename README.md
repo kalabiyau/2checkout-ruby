@@ -173,4 +173,29 @@ end
 }
 ```
 
+Exceptions:
+------------------
+
+*Example Catch:*
+
+Exceptions are thrown by if an error has returned. It is best to catch these exceptions so that they can be gracefully handled in your application.
+
+
+```ruby
+begin
+  sale = Twocheckout::Sale.find(:sale_id => 4786293822)
+  last_invoice = sale.invoices.last
+  last_lineitem = last_invoice.lineitems.last
+  last_lineitem.stop_recurring!
+rescue Exception => e
+  puts e.message
+end
+```
+
+*Example Exception:*
+
+```ruby
+"Lineitem is not scheduled to recur."
+```
+
 Full documentation for each binding is provided in the **[Wiki](https://github.com/craigchristenson/2checkout-ruby/wiki)**.
