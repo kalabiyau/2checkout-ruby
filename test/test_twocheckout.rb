@@ -46,7 +46,7 @@ describe Twocheckout::Sale do
 	  sale = Twocheckout::Sale.find(:sale_id => 4786293822)
 	  sale.refund!({:comment => "test refund", :category => 1})
     rescue Exception => e
-	  assert_equal("Invoice was already refunded.", e.message)
+	  assert_equal("Invoice too old to refund.", e.message)
     end
   end
 
@@ -57,7 +57,7 @@ describe Twocheckout::Sale do
 	  invoice = sale.invoices.first
 	  invoice.refund!({:comment => "test refund", :category => 1})
     rescue Exception => e
-	  assert_equal("Invoice was already refunded.", e.message)
+	  assert_equal("Invoice too old to refund.", e.message)
     end
   end
 
