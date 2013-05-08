@@ -1,6 +1,12 @@
-require "minitest/spec"
-require "minitest/autorun"
+require "rubygems"
+require "bundler/setup"
 require "twocheckout"
+Bundler.require(:test)
+
+VCR.configure do |c|
+  c.cassette_library_dir = 'test/vcr_cassettes'
+  c.hook_into :webmock
+end
 
 #
 # Sales
