@@ -142,27 +142,29 @@ describe Twocheckout::Product do
   # Product list
   it "Product list returns array of products" do
     product_list = Twocheckout::Product.list({ :pagesize => 5 })
-	assert_equal(product_list.size, 5)
+	  assert_equal(product_list.size, 5)
   end
 
   # Product CRUD
-   it "Product create, find, update, delete is successful" do
-   	# create
+  it "Product create, find, update, delete is successful" do
+    # create
     new_product = Twocheckout::Product.create({:name => "test product", :price => 1.00})
-	assert_equal("test product", new_product.name)
-	# find
-	product = Twocheckout::Product.find({:product_id => new_product.product_id})
-	assert_equal(new_product.product_id, product.product_id)
-	# update
-	product = product.update({:name => "new name"})
-	assert_equal("new name", product.name)
-	# delete
-	result = product.delete!
-	assert_equal("Product successfully deleted.", result['response_message'])
+    assert_equal("test product", new_product.name)
+    # find
+    product = Twocheckout::Product.find({:product_id => new_product.product_id})
+    assert_equal(new_product.product_id, product.product_id)
+    # update
+    product = product.update({:name => "new name"})
+    assert_equal("new name", product.name)
+    # delete
+    result = product.delete!
+    assert_equal("Product successfully deleted.", result['response_message'])
   end
+
 end
 
 describe Twocheckout::Option do
+
   before do
     Twocheckout::API.credentials = { :username => 'APIuser1817037', :password => 'APIpass1817037' }
     VCR.insert_cassette __name__
@@ -175,28 +177,30 @@ describe Twocheckout::Option do
   # Option list
   it "Option list returns array of options" do
     option_list = Twocheckout::Option.list({ :pagesize => 5 })
-	assert_equal(5, option_list.size)
+	  assert_equal(5, option_list.size)
   end
 
   # Option CRUD
-   it "Option create, find, update, delete is successful" do
-   	# create
+  it "Option create, find, update, delete is successful" do
+    # create
     new_option = Twocheckout::Option.create({:option_name => "test option", 
     	:option_value_name => "test option value", :option_value_surcharge => 1.00})
-	assert_equal("test option", new_option.option_name)
-	# find
-	option = Twocheckout::Option.find({:option_id => new_option.option_id})
-	assert_equal(new_option.option_id, option.option_id)
-	# update
-	option = option.update({:option_name => "new name"})
-	assert_equal("new name", option.option_name)
-	# delete
-	result = option.delete!
-	assert_equal("Option deleted successfully", result['response_message'])
+	  assert_equal("test option", new_option.option_name)
+    # find
+    option = Twocheckout::Option.find({:option_id => new_option.option_id})
+    assert_equal(new_option.option_id, option.option_id)
+    # update
+    option = option.update({:option_name => "new name"})
+    assert_equal("new name", option.option_name)
+    # delete
+    result = option.delete!
+    assert_equal("Option deleted successfully", result['response_message'])
   end
+
 end
 
 describe Twocheckout::Coupon do
+
   before do
     Twocheckout::API.credentials = { :username => 'APIuser1817037', :password => 'APIpass1817037' }
     VCR.insert_cassette __name__
@@ -209,24 +213,24 @@ describe Twocheckout::Coupon do
   # Coupon list
   it "Coupon list returns array of coupons" do
     coupon_list = Twocheckout::Coupon.list({ :pagesize => 4 })
-	assert_equal(4, coupon_list.size)
+	  assert_equal(4, coupon_list.size)
   end
 
   # Coupon CRUD
-   it "Coupon create, find, update, delete is successful" do
-   	# create
+  it "Coupon create, find, update, delete is successful" do
+    # create
     new_coupon = Twocheckout::Coupon.create({:date_expire => "2020-01-01", 
     	:type => "shipping", :minimum_purchase => 1.00})
-	assert_equal("2020-01-01", new_coupon.date_expire)
-	# find
-	coupon = Twocheckout::Coupon.find({:coupon_code => new_coupon.coupon_code})
-	assert_equal(new_coupon.coupon_code, coupon.coupon_code)
-	# update
-	coupon = coupon.update({:date_expire => "2020-01-02"})
-	assert_equal("2020-01-02", coupon.date_expire)
-	# delete
-	result = coupon.delete!
-	assert_equal("Coupon successfully deleted.", result['response_message'])
+	  assert_equal("2020-01-01", new_coupon.date_expire)
+	  # find
+	  coupon = Twocheckout::Coupon.find({:coupon_code => new_coupon.coupon_code})
+	  assert_equal(new_coupon.coupon_code, coupon.coupon_code)
+	  # update
+	  coupon = coupon.update({:date_expire => "2020-01-02"})
+	  assert_equal("2020-01-02", coupon.date_expire)
+	  # delete
+	  result = coupon.delete!
+	  assert_equal("Coupon successfully deleted.", result['response_message'])
   end
 end
 
