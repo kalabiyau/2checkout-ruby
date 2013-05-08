@@ -235,11 +235,25 @@ describe Twocheckout::Coupon do
 end
 
 describe Twocheckout::ValidateResponse do
-  #purchase
-  it "Validates Purchase MD5 Hash" do
-    result = Twocheckout::ValidateResponse.purchase({:sid => 1817037, :secret => "tango", :order_number => 4789848870, :total => 0.01,
-                             :key => 'CDF3E502AA1597DD4401760783432337'})
-    assert_equal('PASS', result[:code])
+
+  describe '#purchase' do
+    before do
+      @req = {
+          :sid => 1817037, :secret => "tango", :order_number => 4789848870, :total => 0.01,
+          :key => 'CDF3E502AA1597DD4401760783432337'
+      }
+    end
+
+    it "Validates Purchase MD5 Hash" do
+      result = Twocheckout::ValidateResponse.purchase(@req)
+      assert_equal('PASS', result[:code])
+    end
+
+    it "should be valid in demo mode but with different key" do
+      @req[:key] = '1BC47EA0D63EB76496E294F434138AD3'
+      result = Twocheckout::ValidateResponse.purchase(@req.merge({:demo => 'Y'}))
+      assert_equal('PASS', result[:code])
+    end
   end
 
   #notification
