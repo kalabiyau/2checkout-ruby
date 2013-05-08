@@ -2,6 +2,7 @@ require "rubygems"
 require "bundler/setup"
 require "twocheckout"
 Bundler.require(:test)
+require "turn/autorun"
 
 VCR.configure do |c|
   c.cassette_library_dir = 'test/vcr_cassettes'
