@@ -1,0 +1,245 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://APIuser1817037:APIpass1817037@www.2checkout.com/api/products/list_products?pagesize=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Type:
+      - application/json
+      User-Agent:
+      - 2Checkout/Ruby/,0.1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 May 2013 08:14:30 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - ''
+      Content-Length:
+      - '6268'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from proxy.2checkout.com
+      Via:
+      - 1.0 proxy.2checkout.com:3128 (squid)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+           "page_info" : {
+              "cur_page" : "1",
+              "first_entry" : 1,
+              "first_page" : 1,
+              "first_page_url" : "https://www.2checkout.com/api/products/list_products?cur_page=1&pagesize=5",
+              "last_entry" : 5,
+              "last_page" : 72,
+              "last_page_url" : "https://www.2checkout.com/api/products/list_products?cur_page=72&pagesize=5",
+              "next_page" : 2,
+              "next_page_url" : "https://www.2checkout.com/api/products/list_products?cur_page=2&pagesize=5",
+              "pagesize" : "5",
+              "previous_page" : null,
+              "total_entries" : "360"
+           },
+           "products" : [
+              {
+                 "approved_url" : "http://www.google.com",
+                 "assigned_product_id" : "2",
+                 "categories" : [
+                    {
+                       "category_id" : "33",
+                       "description" : null,
+                       "name" : "Purses & Other Accessories",
+                       "parent_id" : "3",
+                       "parent_name" : "Apparel & Accessories"
+                    }
+                 ],
+                 "commission" : null,
+                 "commission_type" : null,
+                 "description" : "Test Description",
+                 "duration" : null,
+                 "handling" : "0.00",
+                 "images" : [],
+                 "long_description" : null,
+                 "name" : "test",
+                 "options" : [
+                    {
+                       "option_id" : "4774386668",
+                       "option_name" : "0.5",
+                       "option_values" : [
+                          {
+                             "option_value_id" : "4774386671",
+                             "option_value_name" : "test1",
+                             "option_value_surcharge" : "0.01"
+                          },
+                          {
+                             "option_value_id" : "4774386791",
+                             "option_value_name" : "test2",
+                             "option_value_surcharge" : "0.02"
+                          }
+                       ]
+                    },
+                    {
+                       "option_id" : "4774403903",
+                       "option_name" : "Example Option",
+                       "option_values" : [
+                          {
+                             "option_value_id" : "4774403906",
+                             "option_value_name" : "Test",
+                             "option_value_surcharge" : "1.00"
+                          }
+                       ]
+                    }
+                 ],
+                 "pending_url" : null,
+                 "price" : "0.01",
+                 "product_id" : "4774387610",
+                 "recurrence" : null,
+                 "startup_fee" : null,
+                 "tangible" : "1",
+                 "vendor_id" : "1817037",
+                 "vendor_product_id" : "test",
+                 "weight" : null
+              },
+              {
+                 "approved_url" : "http://www.google.com",
+                 "assigned_product_id" : "3",
+                 "categories" : [
+                    {
+                       "category_id" : "21",
+                       "description" : null,
+                       "name" : "Advice & Instruction",
+                       "parent_id" : "2",
+                       "parent_name" : "Business Solutions & Office Products"
+                    }
+                 ],
+                 "commission" : null,
+                 "commission_type" : null,
+                 "description" : "This is a test product!",
+                 "duration" : "Forever",
+                 "handling" : "0.00",
+                 "images" : [
+                    {
+                       "image_id" : "4828035704",
+                       "image_number" : "1"
+                    }
+                 ],
+                 "long_description" : null,
+                 "name" : "Example Product",
+                 "options" : [
+                    {
+                       "option_id" : "4774386668",
+                       "option_name" : "0.5",
+                       "option_values" : [
+                          {
+                             "option_value_id" : "4774386671",
+                             "option_value_name" : "test1",
+                             "option_value_surcharge" : "0.01"
+                          },
+                          {
+                             "option_value_id" : "4774386791",
+                             "option_value_name" : "test2",
+                             "option_value_surcharge" : "0.02"
+                          }
+                       ]
+                    }
+                 ],
+                 "pending_url" : null,
+                 "price" : "0.01",
+                 "product_id" : "4774388564",
+                 "recurrence" : "1 Week",
+                 "startup_fee" : null,
+                 "tangible" : "0",
+                 "vendor_id" : "1817037",
+                 "vendor_product_id" : "example123",
+                 "weight" : null
+              },
+              {
+                 "approved_url" : null,
+                 "assigned_product_id" : "4",
+                 "categories" : [],
+                 "commission" : null,
+                 "commission_type" : null,
+                 "description" : null,
+                 "duration" : null,
+                 "handling" : "0.00",
+                 "images" : [],
+                 "long_description" : null,
+                 "name" : "Example Product",
+                 "options" : [],
+                 "pending_url" : null,
+                 "price" : "1.00",
+                 "product_id" : "4774388582",
+                 "recurrence" : null,
+                 "startup_fee" : null,
+                 "tangible" : "N",
+                 "vendor_id" : "1817037",
+                 "vendor_product_id" : "",
+                 "weight" : null
+              },
+              {
+                 "approved_url" : null,
+                 "assigned_product_id" : "5",
+                 "categories" : [],
+                 "commission" : null,
+                 "commission_type" : null,
+                 "description" : null,
+                 "duration" : null,
+                 "handling" : "0.00",
+                 "images" : [],
+                 "long_description" : null,
+                 "name" : "Example Product",
+                 "options" : [],
+                 "pending_url" : null,
+                 "price" : "1.00",
+                 "product_id" : "4774390988",
+                 "recurrence" : null,
+                 "startup_fee" : null,
+                 "tangible" : "N",
+                 "vendor_id" : "1817037",
+                 "vendor_product_id" : "",
+                 "weight" : null
+              },
+              {
+                 "approved_url" : null,
+                 "assigned_product_id" : "6",
+                 "categories" : [],
+                 "commission" : null,
+                 "commission_type" : null,
+                 "description" : null,
+                 "duration" : null,
+                 "handling" : "0.00",
+                 "images" : [],
+                 "long_description" : null,
+                 "name" : "Example Product",
+                 "options" : [],
+                 "pending_url" : null,
+                 "price" : "1.00",
+                 "product_id" : "4774403921",
+                 "recurrence" : null,
+                 "startup_fee" : null,
+                 "tangible" : "N",
+                 "vendor_id" : "1817037",
+                 "vendor_product_id" : "",
+                 "weight" : null
+              }
+           ],
+           "response_code" : "OK",
+           "response_message" : "Product list successfully retrieved."
+        }
+    http_version: 
+  recorded_at: Wed, 08 May 2013 08:14:31 GMT
+recorded_with: VCR 2.4.0

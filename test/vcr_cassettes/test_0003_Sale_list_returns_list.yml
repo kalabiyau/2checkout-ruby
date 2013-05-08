@@ -1,0 +1,114 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://APIuser1817037:APIpass1817037@www.2checkout.com/api/sales/list_sales?pagesize=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Type:
+      - application/json
+      User-Agent:
+      - 2Checkout/Ruby/,0.1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 May 2013 08:12:50 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - ''
+      Content-Length:
+      - '2470'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from proxy.2checkout.com
+      Via:
+      - 1.0 proxy.2checkout.com:3128 (squid)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+           "page_info" : {
+              "cur_page" : "1",
+              "first_entry" : 1,
+              "first_page" : 1,
+              "first_page_url" : "https://www.2checkout.com/api/sales/list_sales?cur_page=1&pagesize=5",
+              "last_entry" : 5,
+              "last_page" : 12,
+              "last_page_url" : "https://www.2checkout.com/api/sales/list_sales?cur_page=12&pagesize=5",
+              "next_page" : 2,
+              "next_page_url" : "https://www.2checkout.com/api/sales/list_sales?cur_page=2&pagesize=5",
+              "pagesize" : "5",
+              "previous_page" : null,
+              "total_entries" : "57"
+           },
+           "response_code" : "OK",
+           "response_message" : "Sales summaries retrieved successfully.",
+           "sale_summary" : [
+              {
+                 "customer_name" : "Craig P Christenson",
+                 "date_placed" : "2012-10-25",
+                 "decline_code" : null,
+                 "recurring" : "1",
+                 "recurring_declined" : null,
+                 "sale_id" : "4839284412",
+                 "sale_url" : "https://www.2checkout.com/api/sales/detail_sale?sale_id=4839284412",
+                 "usd_total" : "0.03"
+              },
+              {
+                 "customer_name" : "Craig P Christenson",
+                 "date_placed" : "2012-10-24",
+                 "decline_code" : null,
+                 "recurring" : "0",
+                 "recurring_declined" : null,
+                 "sale_id" : "4838678777",
+                 "sale_url" : "https://www.2checkout.com/api/sales/detail_sale?sale_id=4838678777",
+                 "usd_total" : "1.00"
+              },
+              {
+                 "customer_name" : "Craig P Christenson",
+                 "date_placed" : "2012-10-23",
+                 "decline_code" : null,
+                 "recurring" : "1",
+                 "recurring_declined" : null,
+                 "sale_id" : "4838212958",
+                 "sale_url" : "https://www.2checkout.com/api/sales/detail_sale?sale_id=4838212958",
+                 "usd_total" : "0.03"
+              },
+              {
+                 "customer_name" : "Craig P Christenson",
+                 "date_placed" : "2012-10-23",
+                 "decline_code" : null,
+                 "recurring" : "0",
+                 "recurring_declined" : null,
+                 "sale_id" : "4837865307",
+                 "sale_url" : "https://www.2checkout.com/api/sales/detail_sale?sale_id=4837865307",
+                 "usd_total" : "1.00"
+              },
+              {
+                 "customer_name" : "Craig P Christenson",
+                 "date_placed" : "2012-10-23",
+                 "decline_code" : null,
+                 "recurring" : "0",
+                 "recurring_declined" : null,
+                 "sale_id" : "4837810818",
+                 "sale_url" : "https://www.2checkout.com/api/sales/detail_sale?sale_id=4837810818",
+                 "usd_total" : "1.00"
+              }
+           ]
+        }
+    http_version: 
+  recorded_at: Wed, 08 May 2013 08:12:50 GMT
+recorded_with: VCR 2.4.0

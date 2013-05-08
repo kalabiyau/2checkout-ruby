@@ -1,0 +1,326 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://APIuser1817037:APIpass1817037@www.2checkout.com/api/products/create_option
+    body:
+      encoding: US-ASCII
+      string: option_name=test%20option&option_value_name=test%20option%20value&option_value_surcharge=1.0
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - 2Checkout/Ruby/,0.1.1
+      Content-Length:
+      - '92'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 May 2013 08:43:25 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - ''
+      Content-Length:
+      - '115'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from proxy.2checkout.com
+      Via:
+      - 1.0 proxy.2checkout.com:3128 (squid)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+           "option_id" : "4988525682",
+           "response_code" : "OK",
+           "response_message" : "Option created successfully"
+        }
+    http_version: 
+  recorded_at: Wed, 08 May 2013 08:43:25 GMT
+- request:
+    method: get
+    uri: https://APIuser1817037:APIpass1817037@www.2checkout.com/api/products/detail_option?option_id=4988525682
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Type:
+      - application/json
+      User-Agent:
+      - 2Checkout/Ruby/,0.1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 May 2013 08:43:26 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - ''
+      Content-Length:
+      - '433'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from proxy.2checkout.com
+      Via:
+      - 1.0 proxy.2checkout.com:3128 (squid)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+           "option" : [
+              {
+                 "option_id" : "4988525682",
+                 "option_name" : "test option",
+                 "option_values" : [
+                    {
+                       "option_value_id" : "4988525685",
+                       "option_value_name" : "test option value",
+                       "option_value_surcharge" : "1.00"
+                    }
+                 ]
+              }
+           ],
+           "response_code" : "OK",
+           "response_message" : "Option detail retrieved successfully."
+        }
+    http_version: 
+  recorded_at: Wed, 08 May 2013 08:43:26 GMT
+- request:
+    method: get
+    uri: https://APIuser1817037:APIpass1817037@www.2checkout.com/api/products/detail_option?option_id=4988525682
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Type:
+      - application/json
+      User-Agent:
+      - 2Checkout/Ruby/,0.1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 May 2013 08:43:27 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - ''
+      Content-Length:
+      - '433'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from proxy.2checkout.com
+      Via:
+      - 1.0 proxy.2checkout.com:3128 (squid)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+           "option" : [
+              {
+                 "option_id" : "4988525682",
+                 "option_name" : "test option",
+                 "option_values" : [
+                    {
+                       "option_value_id" : "4988525685",
+                       "option_value_name" : "test option value",
+                       "option_value_surcharge" : "1.00"
+                    }
+                 ]
+              }
+           ],
+           "response_code" : "OK",
+           "response_message" : "Option detail retrieved successfully."
+        }
+    http_version: 
+  recorded_at: Wed, 08 May 2013 08:43:27 GMT
+- request:
+    method: post
+    uri: https://APIuser1817037:APIpass1817037@www.2checkout.com/api/products/update_option
+    body:
+      encoding: US-ASCII
+      string: option_name=new%20name&option_id=4988525682
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - 2Checkout/Ruby/,0.1.1
+      Content-Length:
+      - '43'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 May 2013 08:43:27 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - ''
+      Content-Length:
+      - '84'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from proxy.2checkout.com
+      Via:
+      - 1.0 proxy.2checkout.com:3128 (squid)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+           "response_code" : "OK",
+           "response_message" : "Option updated successfully"
+        }
+    http_version: 
+  recorded_at: Wed, 08 May 2013 08:43:28 GMT
+- request:
+    method: get
+    uri: https://APIuser1817037:APIpass1817037@www.2checkout.com/api/products/detail_option?option_id=4988525682&option_name=new%20name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Type:
+      - application/json
+      User-Agent:
+      - 2Checkout/Ruby/,0.1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 May 2013 08:43:28 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - ''
+      Content-Length:
+      - '601'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from proxy.2checkout.com
+      Via:
+      - 1.0 proxy.2checkout.com:3128 (squid)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+           "option" : [
+              {
+                 "option_id" : "4988525682",
+                 "option_name" : "new name",
+                 "option_values" : [
+                    {
+                       "option_value_id" : "4988525685",
+                       "option_value_name" : "test option value",
+                       "option_value_surcharge" : "1.00"
+                    }
+                 ]
+              }
+           ],
+           "response_code" : "OK",
+           "response_message" : "Option detail retrieved successfully.",
+           "warnings" : [
+              {
+                 "code" : "PARAMETER_IGNORED",
+                 "message" : "Parameter ignored: option_name",
+                 "parameter" : "option_name"
+              }
+           ]
+        }
+    http_version: 
+  recorded_at: Wed, 08 May 2013 08:43:28 GMT
+- request:
+    method: post
+    uri: https://APIuser1817037:APIpass1817037@www.2checkout.com/api/products/delete_option
+    body:
+      encoding: US-ASCII
+      string: option_id=4988525682
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - 2Checkout/Ruby/,0.1.1
+      Content-Length:
+      - '20'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 May 2013 08:43:29 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - ''
+      Content-Length:
+      - '84'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from proxy.2checkout.com
+      Via:
+      - 1.0 proxy.2checkout.com:3128 (squid)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+           "response_code" : "OK",
+           "response_message" : "Option deleted successfully"
+        }
+    http_version: 
+  recorded_at: Wed, 08 May 2013 08:43:30 GMT
+recorded_with: VCR 2.4.0

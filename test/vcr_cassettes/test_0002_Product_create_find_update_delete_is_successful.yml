@@ -1,0 +1,368 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://APIuser1817037:APIpass1817037@www.2checkout.com/api/products/create_product
+    body:
+      encoding: US-ASCII
+      string: name=test%20product&price=1.0
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - 2Checkout/Ruby/,0.1.1
+      Content-Length:
+      - '29'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 May 2013 08:14:32 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - ''
+      Content-Length:
+      - '151'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from proxy.2checkout.com
+      Via:
+      - 1.0 proxy.2checkout.com:3128 (squid)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+           "assigned_product_id" : "654",
+           "product_id" : "4988508173",
+           "response_code" : "OK",
+           "response_message" : "Product successfully created"
+        }
+    http_version: 
+  recorded_at: Wed, 08 May 2013 08:14:32 GMT
+- request:
+    method: get
+    uri: https://APIuser1817037:APIpass1817037@www.2checkout.com/api/products/detail_product?product_id=4988508173
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Type:
+      - application/json
+      User-Agent:
+      - 2Checkout/Ruby/,0.1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 May 2013 08:14:33 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - ''
+      Content-Length:
+      - '800'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from proxy.2checkout.com
+      Via:
+      - 1.0 proxy.2checkout.com:3128 (squid)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+           "product" : {
+              "approved_url" : null,
+              "assigned_product_id" : "654",
+              "categories" : [],
+              "commission" : 0,
+              "commission_amount" : null,
+              "commission_type" : null,
+              "description" : null,
+              "duration" : null,
+              "handling" : null,
+              "images" : [],
+              "long_description" : null,
+              "name" : "test product",
+              "options" : [],
+              "pending_url" : null,
+              "price" : "1.00",
+              "product_id" : "4988508173",
+              "recurrence" : null,
+              "recurrence_p" : null,
+              "recurring" : "0",
+              "startup_fee" : null,
+              "tangible" : "0",
+              "vendor_id" : "1817037",
+              "vendor_product_id" : "",
+              "weight" : null
+           },
+           "response_code" : "OK",
+           "response_message" : "Product detail information retrieved successfully"
+        }
+    http_version: 
+  recorded_at: Wed, 08 May 2013 08:14:33 GMT
+- request:
+    method: get
+    uri: https://APIuser1817037:APIpass1817037@www.2checkout.com/api/products/detail_product?product_id=4988508173
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Type:
+      - application/json
+      User-Agent:
+      - 2Checkout/Ruby/,0.1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 May 2013 08:14:33 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - ''
+      Content-Length:
+      - '800'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from proxy.2checkout.com
+      Via:
+      - 1.0 proxy.2checkout.com:3128 (squid)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+           "product" : {
+              "approved_url" : null,
+              "assigned_product_id" : "654",
+              "categories" : [],
+              "commission" : 0,
+              "commission_amount" : null,
+              "commission_type" : null,
+              "description" : null,
+              "duration" : null,
+              "handling" : null,
+              "images" : [],
+              "long_description" : null,
+              "name" : "test product",
+              "options" : [],
+              "pending_url" : null,
+              "price" : "1.00",
+              "product_id" : "4988508173",
+              "recurrence" : null,
+              "recurrence_p" : null,
+              "recurring" : "0",
+              "startup_fee" : null,
+              "tangible" : "0",
+              "vendor_id" : "1817037",
+              "vendor_product_id" : "",
+              "weight" : null
+           },
+           "response_code" : "OK",
+           "response_message" : "Product detail information retrieved successfully"
+        }
+    http_version: 
+  recorded_at: Wed, 08 May 2013 08:14:34 GMT
+- request:
+    method: post
+    uri: https://APIuser1817037:APIpass1817037@www.2checkout.com/api/products/update_product
+    body:
+      encoding: US-ASCII
+      string: name=new%20name&product_id=4988508173
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - 2Checkout/Ruby/,0.1.1
+      Content-Length:
+      - '37'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 May 2013 08:14:34 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - ''
+      Content-Length:
+      - '151'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from proxy.2checkout.com
+      Via:
+      - 1.0 proxy.2checkout.com:3128 (squid)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+           "assigned_product_id" : "654",
+           "product_id" : "4988508173",
+           "response_code" : "OK",
+           "response_message" : "Product successfully updated"
+        }
+    http_version: 
+  recorded_at: Wed, 08 May 2013 08:14:35 GMT
+- request:
+    method: get
+    uri: https://APIuser1817037:APIpass1817037@www.2checkout.com/api/products/detail_product?name=new%20name&product_id=4988508173
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Type:
+      - application/json
+      User-Agent:
+      - 2Checkout/Ruby/,0.1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 May 2013 08:14:35 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - ''
+      Content-Length:
+      - '953'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from proxy.2checkout.com
+      Via:
+      - 1.0 proxy.2checkout.com:3128 (squid)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+           "product" : {
+              "approved_url" : null,
+              "assigned_product_id" : "654",
+              "categories" : [],
+              "commission" : 0,
+              "commission_amount" : null,
+              "commission_type" : null,
+              "description" : null,
+              "duration" : null,
+              "handling" : null,
+              "images" : [],
+              "long_description" : null,
+              "name" : "new name",
+              "options" : [],
+              "pending_url" : null,
+              "price" : "1.00",
+              "product_id" : "4988508173",
+              "recurrence" : null,
+              "recurrence_p" : null,
+              "recurring" : "0",
+              "startup_fee" : null,
+              "tangible" : "0",
+              "vendor_id" : "1817037",
+              "vendor_product_id" : "",
+              "weight" : null
+           },
+           "response_code" : "OK",
+           "response_message" : "Product detail information retrieved successfully",
+           "warnings" : [
+              {
+                 "code" : "PARAMETER_IGNORED",
+                 "message" : "Parameter ignored: name",
+                 "parameter" : "name"
+              }
+           ]
+        }
+    http_version: 
+  recorded_at: Wed, 08 May 2013 08:14:35 GMT
+- request:
+    method: post
+    uri: https://APIuser1817037:APIpass1817037@www.2checkout.com/api/products/delete_product
+    body:
+      encoding: US-ASCII
+      string: product_id=4988508173
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - 2Checkout/Ruby/,0.1.1
+      Content-Length:
+      - '21'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 May 2013 08:14:36 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - ''
+      Content-Length:
+      - '86'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from proxy.2checkout.com
+      Via:
+      - 1.0 proxy.2checkout.com:3128 (squid)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+           "response_code" : "OK",
+           "response_message" : "Product successfully deleted."
+        }
+    http_version: 
+  recorded_at: Wed, 08 May 2013 08:14:37 GMT
+recorded_with: VCR 2.4.0

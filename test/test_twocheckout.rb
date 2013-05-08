@@ -12,8 +12,14 @@ end
 # Sales
 #
 describe Twocheckout::Sale do
+
   before do
     Twocheckout::API.credentials = { :username => 'APIuser1817037', :password => 'APIpass1817037' }
+    VCR.insert_cassette __name__
+  end
+
+  after do
+    VCR.eject_cassette
   end
 
   #retrieve sale
@@ -123,8 +129,14 @@ end
 #
 
 describe Twocheckout::Product do
+
   before do
     Twocheckout::API.credentials = { :username => 'APIuser1817037', :password => 'APIpass1817037' }
+    VCR.insert_cassette __name__
+  end
+
+  after do
+    VCR.eject_cassette
   end
 
   # Product list
@@ -153,6 +165,11 @@ end
 describe Twocheckout::Option do
   before do
     Twocheckout::API.credentials = { :username => 'APIuser1817037', :password => 'APIpass1817037' }
+    VCR.insert_cassette __name__
+  end
+
+  after do
+    VCR.eject_cassette
   end
 
   # Option list
@@ -182,6 +199,11 @@ end
 describe Twocheckout::Coupon do
   before do
     Twocheckout::API.credentials = { :username => 'APIuser1817037', :password => 'APIpass1817037' }
+    VCR.insert_cassette __name__
+  end
+
+  after do
+    VCR.eject_cassette
   end
 
   # Coupon list

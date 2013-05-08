@@ -1,0 +1,1361 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://APIuser1817037:APIpass1817037@www.2checkout.com/api/products/list_coupons?pagesize=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Type:
+      - application/json
+      User-Agent:
+      - 2Checkout/Ruby/,0.1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 May 2013 08:15:56 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - ''
+      Content-Length:
+      - '36506'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from proxy.2checkout.com
+      Via:
+      - 1.0 proxy.2checkout.com:3128 (squid)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+           "coupon" : [
+              {
+                 "coupon_code" : "35",
+                 "date_expire" : "2099-12-22",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "15",
+                 "date_expire" : "2099-12-22",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "44",
+                 "date_expire" : "2099-12-22",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "10",
+                 "date_expire" : "2099-12-22",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "12",
+                 "date_expire" : "2099-12-22",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "56",
+                 "date_expire" : "2099-12-22",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "40",
+                 "date_expire" : "2099-12-22",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHKVT",
+                 "date_expire" : "2099-12-10",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHM2N",
+                 "date_expire" : "2099-12-10",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHMC8",
+                 "date_expire" : "2099-12-10",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHU46",
+                 "date_expire" : "2099-12-10",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHUUM",
+                 "date_expire" : "2099-12-10",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHVP9",
+                 "date_expire" : "2099-12-10",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHXP7",
+                 "date_expire" : "2099-12-10",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHZMA",
+                 "date_expire" : "2099-12-10",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBJ44H",
+                 "date_expire" : "2099-12-10",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBJ4A2",
+                 "date_expire" : "2099-12-10",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBTHPB",
+                 "date_expire" : "2099-12-10",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBTJ7A",
+                 "date_expire" : "2099-12-10",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBTMGB",
+                 "date_expire" : "2099-12-10",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHJFY",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHJG3",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHJG6",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHKRR",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHKRU",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHKRX",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHKW4",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHKW7",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHKWA",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHM2X",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHM32",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHM35",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHMBC",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHMCH",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHMCM",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHU37",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHU3A",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHU3K",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHUUW",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHUUZ",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHUV4",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHVP3",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHVP6",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHVPJ",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHXP4",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHXPG",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHXPK",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHZKZ",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHZM4",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHZM7",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBJ448",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBJ44B",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBJ44E",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBJ49R",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBJ49U",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBJ49X",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBTHNU",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBTHNX",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBTHPM",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBTJ6Z",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBTJ74",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBTJ77",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBTMGM",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBTMGQ",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBTMGT",
+                 "date_expire" : "2099-12-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "DOTNETSHIPPING",
+                 "date_expire" : "2022-12-10",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST38",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST37",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST11",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST31",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST43",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST29",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST0",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST54",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST19",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST59",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST2",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST49",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST40",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST25",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST51",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "JAVATEST2",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "1349538162",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "1349538758",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "1349540473",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "1349556841",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "1349556882",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "1349556904",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "1349557162",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "1349557178",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "1349574407",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "1349665830",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST45",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST36",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST53",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST55",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST14",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST48",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST50",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST46",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST34",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST56",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST35",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST13",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST23",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST26",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST20",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST16",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWGPF3",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWMFMZ",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWMK7B",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FYMUVA",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "1354094677",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "sale",
+                 "value_off" : "0.50"
+              },
+              {
+                 "coupon_code" : "7J77ZQG",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7KYM436",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7KYT68A",
+                 "date_expire" : "2020-12-12",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "TEST123TEST",
+                 "date_expire" : "2020-07-31",
+                 "minimum_purchase" : "2.00",
+                 "percentage_off" : null,
+                 "type" : "sale",
+                 "value_off" : "1.00"
+              },
+              {
+                 "coupon_code" : "123TEST",
+                 "date_expire" : "2020-07-31",
+                 "minimum_purchase" : "2.00",
+                 "percentage_off" : null,
+                 "type" : "sale",
+                 "value_off" : "1.00"
+              },
+              {
+                 "coupon_code" : "7FWGR4U",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWGSZP",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWHM4J",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWHQFD",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWHSPS",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWKXU8",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWKZEK",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWKZV2",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWM32W",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWM3RD",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWM5GS",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWM7RN",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWM87V",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWM8FW",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWM8UZ",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWM92M",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWM979",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWM9E2",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWM9S3",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWMA4E",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWMAF3",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWMASM",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWMB8C",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWMBXB",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWMGCU",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWMHBC",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FWMM98",
+                 "date_expire" : "2020-01-02",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FVEF2H",
+                 "date_expire" : "2020-01-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FVEN4U",
+                 "date_expire" : "2020-01-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FVEP3S",
+                 "date_expire" : "2020-01-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FVEPFV",
+                 "date_expire" : "2020-01-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FVFTVQ",
+                 "date_expire" : "2020-01-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7FVFXF6",
+                 "date_expire" : "2020-01-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "PYTEST12",
+                 "date_expire" : "2020-01-01",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7G2NBE3",
+                 "date_expire" : "2020-01-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7G2NCGX",
+                 "date_expire" : "2020-01-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7G2NCWH",
+                 "date_expire" : "2020-01-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7G2NCX4",
+                 "date_expire" : "2020-01-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHKS2",
+                 "date_expire" : "2020-01-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EBHJFP",
+                 "date_expire" : "2020-01-01",
+                 "minimum_purchase" : "1.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EGCRNY",
+                 "date_expire" : "2015-10-30",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EGCSXJ",
+                 "date_expire" : "2015-10-30",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EGCTUZ",
+                 "date_expire" : "2015-10-30",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EGCUK9",
+                 "date_expire" : "2015-10-30",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              },
+              {
+                 "coupon_code" : "7EGCWPV",
+                 "date_expire" : "2015-10-30",
+                 "minimum_purchase" : "0.00",
+                 "percentage_off" : null,
+                 "type" : "shipping",
+                 "value_off" : null
+              }
+           ],
+           "response_code" : "OK",
+           "response_message" : "Coupon information retrieved successfully.",
+           "warnings" : [
+              {
+                 "code" : "PARAMETER_IGNORED",
+                 "message" : "Parameter ignored: pagesize",
+                 "parameter" : "pagesize"
+              }
+           ]
+        }
+    http_version: 
+  recorded_at: Wed, 08 May 2013 08:15:56 GMT
+recorded_with: VCR 2.4.0

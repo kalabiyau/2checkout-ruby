@@ -1,0 +1,119 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://APIuser1817037:APIpass1817037@www.2checkout.com/api/products/list_options?pagesize=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Type:
+      - application/json
+      User-Agent:
+      - 2Checkout/Ruby/,0.1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 08 May 2013 08:43:30 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - ''
+      Content-Length:
+      - '2217'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from proxy.2checkout.com
+      Via:
+      - 1.0 proxy.2checkout.com:3128 (squid)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+           "options" : [
+              {
+                 "option_id" : "4951715106",
+                 "option_name" : "Example Option",
+                 "option_values" : [
+                    {
+                       "option_value_id" : "4951715109",
+                       "option_value_name" : "Test",
+                       "option_value_surcharge" : "1.00"
+                    }
+                 ]
+              },
+              {
+                 "option_id" : "4951534297",
+                 "option_name" : "Example Option",
+                 "option_values" : [
+                    {
+                       "option_value_id" : "4951534300",
+                       "option_value_name" : "Test",
+                       "option_value_surcharge" : "1.00"
+                    }
+                 ]
+              },
+              {
+                 "option_id" : "4900374528",
+                 "option_name" : "Updated Name",
+                 "option_values" : [
+                    {
+                       "option_value_id" : "4900374531",
+                       "option_value_name" : "Test",
+                       "option_value_surcharge" : "1.00"
+                    }
+                 ]
+              },
+              {
+                 "option_id" : "4900373358",
+                 "option_name" : "Example Option",
+                 "option_values" : [
+                    {
+                       "option_value_id" : "4900373361",
+                       "option_value_name" : "Test",
+                       "option_value_surcharge" : "1.00"
+                    }
+                 ]
+              },
+              {
+                 "option_id" : "4900371999",
+                 "option_name" : "Example Option",
+                 "option_values" : [
+                    {
+                       "option_value_id" : "4900372002",
+                       "option_value_name" : "Test",
+                       "option_value_surcharge" : "1.00"
+                    }
+                 ]
+              }
+           ],
+           "page_info" : {
+              "cur_page" : "1",
+              "first_entry" : 1,
+              "first_page" : 1,
+              "first_page_url" : "https://www.2checkout.com/api/products/list_options?cur_page=1&pagesize=5",
+              "last_entry" : 5,
+              "last_page" : 47,
+              "last_page_url" : "https://www.2checkout.com/api/products/list_options?cur_page=47&pagesize=5",
+              "next_page" : 2,
+              "next_page_url" : "https://www.2checkout.com/api/products/list_options?cur_page=2&pagesize=5",
+              "pagesize" : "5",
+              "previous_page" : null,
+              "total_entries" : "235"
+           },
+           "response_code" : "OK",
+           "response_message" : "Option information retrieved successfully."
+        }
+    http_version: 
+  recorded_at: Wed, 08 May 2013 08:43:30 GMT
+recorded_with: VCR 2.4.0
